@@ -68,16 +68,14 @@
 		3BEDA61129F0880000DF5AC9 /* ExampleForCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				3BEDA62029F0880100DF5AC9 /* Info.plist */,
+				3BEDA63A29F299CD00DF5AC9 /* Sources */,
+				3BEDA63929F299AB00DF5AC9 /* Application */,
 				3BEDA63829F297E700DF5AC9 /* Reusable Layer */,
 				3BEDA63229F1392000DF5AC9 /* Protocols */,
 				3BEDA62F29F135B900DF5AC9 /* Extensions */,
-				3BEDA61229F0880000DF5AC9 /* AppDelegate.swift */,
-				3BEDA61429F0880000DF5AC9 /* SceneDelegate.swift */,
 				3BEDA61629F0880000DF5AC9 /* ViewController.swift */,
 				3BEDA61829F0880000DF5AC9 /* Main.storyboard */,
-				3BEDA61B29F0880100DF5AC9 /* Assets.xcassets */,
-				3BEDA61D29F0880100DF5AC9 /* LaunchScreen.storyboard */,
-				3BEDA62029F0880100DF5AC9 /* Info.plist */,
 			);
 			path = ExampleForCollectionView;
 			sourceTree = "<group>";
@@ -123,6 +121,24 @@
 				3BEDA62D29F1353B00DF5AC9 /* ProgressPageControl.swift */,
 			);
 			path = "Reusable Layer";
+			sourceTree = "<group>";
+		};
+		3BEDA63929F299AB00DF5AC9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA61D29F0880100DF5AC9 /* LaunchScreen.storyboard */,
+				3BEDA61229F0880000DF5AC9 /* AppDelegate.swift */,
+				3BEDA61429F0880000DF5AC9 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3BEDA63A29F299CD00DF5AC9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA61B29F0880100DF5AC9 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
